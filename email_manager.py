@@ -2,7 +2,7 @@ import smtplib
 import urllib.parse
 import requests
 
-class Email():
+class Email:
     def __init__(self, my_email, my_password, host, port, r_email):
         self.email = my_email
         self.password = my_password
